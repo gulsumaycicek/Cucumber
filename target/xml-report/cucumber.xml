@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="30" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="16.647">
+    <testcase classname="US1014" name="TC19" time="14.267">
+        <failure message="Unable to find element with locator By.xpath: //a[@class='login']&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given kulllanici "automationUrl" sayfasinda.................................passed
+And user sign in linkine tiklar.............................................failed
+And email kutusuna @isareti olmayan email adresi yazar ve enter'a tiklar....skipped
+Then error mesajinin “Invalid email address” oldugunu dogrulayin............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@class='login']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at stepDefinitions.AutomationStepDefinitions.user_sign_in_linkine_tiklar(AutomationStepDefinitions.java:19)
+	at ✽.user sign in linkine tiklar(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/AutaDeneme.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC01 kullanici amazonda Nutella aratir" time="0.032">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici amazon sayfasinda..........................................failed
+Then kullanıcı Nutella icin arama yapar.....................................skipped
+And sonuclarin Nutella icerdigini test eder.................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1001_amazonSearch.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC02 kullanici amazonda Java aratir" time="0.02">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici amazon sayfasinda..........................................failed
+Then kullanıcı Java icin arama yapar........................................skipped
+And sonuclarin Java icerdigini test eder....................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1001_amazonSearch.feature:17)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC03 kullanici iphone aratir" time="0.018">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici amazon sayfasinda...........................................failed
+And kullanıcı iphone icin arama yapar.......................................skipped
+Then sonuclarin iphone icerdigini test eder.................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1001_amazonSearch.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1002 Kullanici ortak adimlari Bachground ile calisir" name="TC04 amazon nutella arama yapar" time="0.02">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici amazon sayfasinda..........................................failed
+And kullanıcı Nutella icin arama yapar......................................skipped
+Then sonuclarin Nutella icerdigini test eder................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1002_BackgroundKullanim.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1002 Kullanici ortak adimlari Bachground ile calisir" name="TC05 amazon java aramasi yapar" time="0.019">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici amazon sayfasinda..........................................failed
+And kullanıcı Java icin arama yapar.........................................skipped
+Then sonuclarin Java icerdigini test eder...................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1002_BackgroundKullanim.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="0.021">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici amazon sayfasinda..........................................failed
+And kullanıcı "Java" icin arama yapar.......................................skipped
+And sonuclarin "Java" icerdigini test eder..................................skipped
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllanici_amazon_sayfasinda(AmazonStepDefinitions.java:17)
+	at ✽.kulllanici amazon sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1003_parametreKullanimi.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1004 Kullanici parametre ile Configuration file i kullanilabilmeli" name="TC07 configuration properties dasyasindan parametre kullanimi" time="0.021">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................failed
+Then kullanici 3 sn bekler..................................................skipped
+And url nin "amazon" icerdigini test eder...................................skipped
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "amazonUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1004_ConfigDosyasindanParametreKullanimi.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1005 dogru kulllanici adi ve sifre ile giris yapabilmeli" name="TC08 positive login test" time="0.015">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecerli username girer..................................................skipped
+And gecerli password girer..................................................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yaptigini kontrol eder...................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1005_hotelMyCampPositiveLogin.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1006 yanlis bilgilerle siteye giris yapilamaz" name="TC09 yanlis password ile giris yapilamaz" time="0.025">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecerli username girer..................................................skipped
+And gecersiz password girer.................................................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1006_hotelMyCampNegativeLogin.feature:5)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1006 yanlis bilgilerle siteye giris yapilamaz" name="TC10 yanlis kullanici adi ile giris yapilamaz" time="0.02">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username girer.................................................skipped
+And gecersiz password girer.................................................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1006_hotelMyCampNegativeLogin.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1006 yanlis bilgilerle siteye giris yapilamaz" name="TC11yanlis kullanici adi ve yanlis sifre ile giris yapilamaz" time="0.012">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username girer.................................................skipped
+And gecersiz password girer.................................................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1006_hotelMyCampNegativeLogin.feature:27)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1007 kullanici amazonda istedigi kelimeleri aratir" name="TC12 amazonda listedeki elemetleri aratma" time="0.015">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................failed
+Then kullanıcı "nutella" icin arama yapar...................................skipped
+And sonuclarin "nutella" icerdigini test eder...............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "amazonUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1007_ScenerioOutlineKullanimi.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1007 kullanici amazonda istedigi kelimeleri aratir" name="TC12 amazonda listedeki elemetleri aratma 2" time="0.011">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................failed
+Then kullanıcı "java" icin arama yapar......................................skipped
+And sonuclarin "java" icerdigini test eder..................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "amazonUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1007_ScenerioOutlineKullanimi.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1007 kullanici amazonda istedigi kelimeleri aratir" name="TC12 amazonda listedeki elemetleri aratma 3" time="0.012">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................failed
+Then kullanıcı "elma" icin arama yapar......................................skipped
+And sonuclarin "elma" icerdigini test eder..................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "amazonUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1007_ScenerioOutlineKullanimi.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1007 kullanici amazonda istedigi kelimeleri aratir" name="TC12 amazonda listedeki elemetleri aratma 4" time="0.014">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................failed
+Then kullanıcı "armut" icin arama yapar.....................................skipped
+And sonuclarin "armut" icerdigini test eder.................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.amazon.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "amazonUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1007_ScenerioOutlineKullanimi.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1008 kullanici farkli yanlis sifre ve kullanici adiyla giris yapar" name="TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz" time="0.014">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username olarak "Manager5" girer...............................skipped
+And gecersiz password olarak"Manager5!" girer...............................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1008_NegativeLoginScenarioOutline.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1008 kullanici farkli yanlis sifre ve kullanici adiyla giris yapar" name="TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz 2" time="0.016">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username olarak "Manager6" girer...............................skipped
+And gecersiz password olarak"Manager6!" girer...............................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1008_NegativeLoginScenarioOutline.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1008 kullanici farkli yanlis sifre ve kullanici adiyla giris yapar" name="TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz 3" time="0.015">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username olarak "Manager7" girer...............................skipped
+And gecersiz password olarak"Manager7!" girer...............................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1008_NegativeLoginScenarioOutline.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1008 kullanici farkli yanlis sifre ve kullanici adiyla giris yapar" name="TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz 4" time="0.015">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username olarak "Manager8" girer...............................skipped
+And gecersiz password olarak"Manager8!" girer...............................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1008_NegativeLoginScenarioOutline.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1008 kullanici farkli yanlis sifre ve kullanici adiyla giris yapar" name="TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz 5" time="0.012">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "HMCUrl" sayfasinda........................................failed
+Then Login yazisina tiklar..................................................skipped
+And gecersiz username olarak "Manager9" girer...............................skipped
+And gecersiz password olarak"Manager9!" girer...............................skipped
+And Login botununa basar....................................................skipped
+Then sayfaya giris yapilamadigini kontrol eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://www.hotelmycamp.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "HMCUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1008_NegativeLoginScenarioOutline.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1009 Datatables sitesine 5 farkli diris yapalim" name="TC14 kullanici 5 farkli kayit girisi yapabilmeli" time="0.022">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici "datatablesUrl" sayfasinda..................................failed
+Then new butonuna basar.....................................................skipped
+And isim bolumune "Alim" yazar..............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And soyisim bolumune "Alim" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And position bolumune "QA" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And ofis bolumune "ankara" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And extension bolumune "UI" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And startDate bolumune "2021-10-11" yazar...................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And salary bolumune "10000" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Alim" ile arama yapar.......................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then isim bolumunde "Alim" oldugunu test eder...............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "datatablesUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1009_DatatablesScenarioOutline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1009 Datatables sitesine 5 farkli diris yapalim" name="TC14 kullanici 5 farkli kayit girisi yapabilmeli 2" time="0.018">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici "datatablesUrl" sayfasinda..................................failed
+Then new butonuna basar.....................................................skipped
+And isim bolumune "Berk" yazar..............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And soyisim bolumune "Can" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And position bolumune "tester" yazar........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And ofis bolumune "ankara" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And extension bolumune "api" yazar..........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And startDate bolumune "2022-05-05" yazar...................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And salary bolumune "11000" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Berk" ile arama yapar.......................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then isim bolumunde "Berk" oldugunu test eder...............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "datatablesUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1009_DatatablesScenarioOutline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1009 Datatables sitesine 5 farkli diris yapalim" name="TC14 kullanici 5 farkli kayit girisi yapabilmeli 3" time="0.038">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici "datatablesUrl" sayfasinda..................................failed
+Then new butonuna basar.....................................................skipped
+And isim bolumune "Hüseyin" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And soyisim bolumune "Korkmaz" yazar........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And position bolumune "BA" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And ofis bolumune "berlin" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And extension bolumune "-" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And startDate bolumune "2022-07-10" yazar...................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And salary bolumune "40000" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Hüseyin" ile arama yapar....................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then isim bolumunde "Hüseyin" oldugunu test eder............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "datatablesUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1009_DatatablesScenarioOutline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1009 Datatables sitesine 5 farkli diris yapalim" name="TC14 kullanici 5 farkli kayit girisi yapabilmeli 4" time="0.026">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici "datatablesUrl" sayfasinda..................................failed
+Then new butonuna basar.....................................................skipped
+And isim bolumune "Fatih" yazar.............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And soyisim bolumune "Sahin" yazar..........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And position bolumune "PO" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And ofis bolumune "berlin" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And extension bolumune "-" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And startDate bolumune "2022-03-12" yazar...................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And salary bolumune "45000" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Fatih" ile arama yapar......................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then isim bolumunde "Fatih" oldugunu test eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "datatablesUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1009_DatatablesScenarioOutline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1009 Datatables sitesine 5 farkli diris yapalim" name="TC14 kullanici 5 farkli kayit girisi yapabilmeli 5" time="0.013">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[When kulllanici "datatablesUrl" sayfasinda..................................failed
+Then new butonuna basar.....................................................skipped
+And isim bolumune "Ahmet" yazar.............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And soyisim bolumune "Kaya" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And position bolumune "Tester" yazar........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And ofis bolumune "ankara" yazar............................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And extension bolumune "database" yazar.....................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And startDate bolumune "2022-06-03" yazar...................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And salary bolumune "11000" yazar...........................................skipped
+And kullanici 1 sn bekler...................................................skipped
+And Create tusuna basar.....................................................skipped
+When kullanici "Ahmet" ile arama yapar......................................skipped
+And kullanici 1 sn bekler...................................................skipped
+Then isim bolumunde "Ahmet" oldugunu test eder..............................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://editor.datatables.net/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "datatablesUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1009_DatatablesScenarioOutline.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1010 herokuapp Delete testi" name="TC15 herokuapp'dan delete butonu calismali" time="0.012">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://the-internet.herokuapp.com/add_remove_elements/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "herokuappUrl" sayfasinda..................................failed
+And add element butonuna basar..............................................skipped
+And kullanici 3 sn bekler...................................................skipped
+Then Delete butonu gorunur oluncaya kadar bekler............................skipped
+And Delete butonunun gorunur oldugunu test eder.............................skipped
+Then Delete butonuna basar..................................................skipped
+And Delete butonunun gorunmedigini test eder................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=https://the-internet.herokuapp.com/add_remove_elements/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "herokuappUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1010_Herokuapp.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1011web tablosundaki istenen sutunu yazdirma" name="TC16 kullanici sutun basligi ile liste alabilmeli" time="0.013">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=http://demo.guru99.com/test/web-table-element.php}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "guruUrl" sayfasinda.......................................failed
+And kullanici 3 sn bekler...................................................skipped
+And "Prev Close (Rs)", sutunundaki tum degerleri yazdirir...................skipped
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=http://demo.guru99.com/test/web-table-element.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "guruUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1011_GuruTest.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1012 Kullanici register" name="TC17 kullanici uygun datalaarla register olabilmeli" time="0.014">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=http://automationpractice.com/index.php}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kulllanici "automationUrl" sayfasinda.................................failed
+And user sign in linkine tiklar.............................................skipped
+And user Create and account bolumune email adresi girer.....................skipped
+And Create an Account butonuna basar........................................skipped
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................skipped
+And user Register butonuna basar............................................skipped
+Then hesap olustugunu dogrular..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, get {url=http://automationpractice.com/index.php}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at stepDefinitions.AmazonStepDefinitions.kulllaniciSayfasinda(AmazonStepDefinitions.java:87)
+	at ✽.kulllanici "automationUrl" sayfasinda(file:///C:/Users/GÜLSÜM%20AYÇİÇEK/IdeaProjects/com.Bach59Cucumber/src/test/resources/features/US1012_AutomationPractice.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1013 kullanici excel bilgilerine ulasir" name="TC18 kullanici excel bilgilerini kullanir" time="0.871">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09c2c7c553ee077b6196578d20ed3a79, screenshot {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09c2c7c553ee077b6196578d20ed3a79" type="org.openqa.selenium.NoSuchWindowException">
+            <![CDATA[Given kullanici excel dosyasini kullanilabilir hale getirir.................passed
+Then 1.satirdaki 2.hucreyi yazdirir.........................................passed
+And baskenti Jakarta olan ulke ismini yazdirir..............................passed
+And Ulke sayisinin 190 oldugunu test eder...................................passed
+And Fiziki olarak kullanilan satir sayisinin 191 oldugunu test eder.........passed
+And Fiziki olarak kullanilan satir sayisinin 191 oldugunu test eder.........passed
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-CC1GCTLJ', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09c2c7c553ee077b6196578d20ed3a79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\GLSMAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53877/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09c2c7c553ee077b6196578d20ed3a79
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at stepDefinitions.Hooks.tearDown(Hooks.java:31)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

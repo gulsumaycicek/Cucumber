@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.189">
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC03 kullanici iphone aratir" time="15.741">
+        <system-out>
+            <![CDATA[When kulllanici amazon sayfasinda...........................................passed
+And kullanıcı iphone icin arama yapar.......................................passed
+Then sonuclarin iphone icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1004 Kullanici parametre ile Configuration file i kullanilabilmeli" name="TC07 configuration properties dasyasindan parametre kullanimi" time="13.949">
+        <system-out>
+            <![CDATA[Given kulllanici "amazonUrl" sayfasinda.....................................passed
+Then kullanici 3 sn bekler..................................................passed
+And url nin "amazon" icerdigini test eder...................................passed
+Then sayfayi kapatir........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
